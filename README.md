@@ -1,7 +1,7 @@
 # Leafblower 💨
 Powershell script to make room for compressed plots by removing Chia OG plots from mounted hard drives.
 
-The script makes room for compressed Chia plots by maintaining free space on drives by deleting full-sized OG plots when the disk is getting full. Let it run in the background and leafblow the old plots away from the drive.
+The script makes room for compressed Chia plots by maintaining free space on drives by deleting full-sized OG plots when the disk is getting full. Let it run in the background and leafblow the old plots away from the drives.
 
 In the script file configure the following:
 
