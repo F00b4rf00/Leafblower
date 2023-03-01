@@ -9,9 +9,6 @@ while ($true) {
     Write-Output "Scanning drive free space"
     $drives = Get-WmiObject Win32_Volume | Where-Object { $_.Name -like "$($mountDirectory)*" }
     foreach ($drive in $drives) {
-        ##$driveInfo = Get-Volume -DriveLetter $drive.Name
-        ##$driveInfo = Get-Volume -Path $drive.__PATH
-
         $freeSpace = $drive.FreeSpace / 1GB
         Write-Output "Drive $($drive.name) Free Space $($freeSpace)"
 
