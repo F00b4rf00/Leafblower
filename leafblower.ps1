@@ -3,7 +3,7 @@
 $mountDirectory = "C:\mount" # Replace with the directory where the drives are mounted
 $minFreeSpace = 180 # The minimum amount of free space, in GB, that you want to keep per drive for compressed plots (e.g. if moving compressed plots one by one, at least the size of one compressed plot)
 $minFileSize = 90 # The minimum file size, in GB, that you want to delete (greater than the size of a compressed plot and less than OG plot
-$cleanFreq = 600 # sling frequency in seconds
+$cleanFreq = 600 # recheck frequency in seconds
 
 while ($true) {
     Write-Output "Scanning drive free space"
